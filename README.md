@@ -6,6 +6,7 @@ The Employee Management System is a simple web-based application that simplifies
 ## Table of Contents
 - [Features](#features)
 - [Prerequisites](#prerequisites)
+- [Walkthrough](#walkthrough)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
@@ -28,14 +29,10 @@ Before using the Employee Management System, ensure that you have the following 
 - A modern web browser (e.g., Google Chrome, Mozilla Firefox) to run the application.
 - A text editor (e.g., Visual Studio Code, Sublime Text) for viewing and potentially editing the source code.
 
-## Features
-1. **Add Employee**: Users can add employees to the system by providing the employee's name and ID.
-2. **View Employee**: Users can view employee details by entering the employee's ID. If the employee is found, their name and ID are displayed.
-
-## Prerequisites
-Before you begin, ensure you have met the following requirements:
-- A modern web browser (e.g., Google Chrome, Mozilla Firefox).
-- A text editor for viewing and editing the source code (e.g., Visual Studio Code, Sublime Text).
+## Walkthrough
+- **Classes**: The system utilizes a `Employee` class to represent employees with an `index`, `name`, `id` and `email` properties. This forms the parent class from which other classes were created from and this includes the `Manager`, `Engineer`, and `Intern` classes. Employee records are created as instances of these classes.
+- **Switch Statements**: A switch statement is used on different occasions one of which is to determine the role selected and create the appropriate employee instance with the appropriate class, another is the determine the additional input to display still depending on the role selected.
+- **Try-Catch-Finally Statements**: Error handling is implemented using try-catch-finally blocks. For example, if the user attempts to add an employee without providing a name or ID, a catch block will handle the error and display an alert with an error message.
 
 ## Usage
 1. Clone the repository to your local machine:
