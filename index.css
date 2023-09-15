@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Raleway&display=swap');
+
+body {
+  padding: 0px 10px;
+  margin: 0px;
+  font-size: 16px;
+  font-family: "Raleway";
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 0px;
+}
+
+.showEmployeeBtn {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.view {
+  min-width: 120px;
+  margin: 0px auto;
+  cursor: pointer;
+  padding: 10px;
+  background: #b83930;
+  color: #e9e9e9;
+  border: none;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-family: inherit;
+  font-weight: 600;
+}
+
+form {
+  border-radius: 5px;
+  padding: 0px;
+  margin: 0px;
+  max-width: 400px;
+  margin: 0px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px #0000001a;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+form div {
+  padding: 0px;
+  margin-bottom: 15px;
+}
+
+form input, form select {
+  outline: none;
+  font-family: "Raleway";
+  height: 40px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: thin solid #a7a7a7;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+form button {
+  width: 100%;
+  cursor: pointer;
+  padding: 13px;
+  background: #b83930;
+  color: #e9e9e9;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-size: 0.9rem;
+  font-family: inherit;
+}
+
+.hide {
+  display: none;
+}
+
+.employees {
+  padding-top: 20px;
+}
+.employees h2,
+.employees p {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+table, th, td {
+  padding: 5px 10px;
+  border: thin solid #888888;
+  border-collapse: collapse;
+}
+thead th[colspan="5"] {
+  font-size: 1.3rem;
+}

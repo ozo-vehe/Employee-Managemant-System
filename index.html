@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Management System</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <h1>Employee Management System</h1>
+  <div class="showEmployeeBtn">
+    <button class="view">View Employees</button>
+  </div>
+
+  <form id="employeeForm">
+    <div class="employeeAction">
+      <label for="action">Select Role:</label>
+      <select id="action" required>
+        <option value="intern">Intern</option>
+        <option value="engineer">Engineer</option>
+        <option value="manager">Manager</option>
+      </select>
+    </div>
+
+    <div class="employeeName">
+      <label for="employeeName">Employee Name:</label>
+      <input type="text" id="employeeName" required>
+    </div>
+
+    <div class="employeeId">
+      <label for="employeeID">Employee ID:</label>
+      <input type="text" id="employeeID" required>
+    </div>
+
+    <div class="employeeEmail">
+      <label for="employeeEmail">Employee Email:</label>
+      <input type="email" id="employeeEmail" required>
+    </div>
+
+    <div class="employeeOfficeNumber hide">
+      <label for="employeeOfficeNumber">Office Number:</label>
+      <input type="text" id="employeeOfficeNumber">
+    </div>
+
+    <div class="github hide">
+      <label for="github">GitHub Profile:</label>
+      <input type="url" id="github">
+    </div>
+
+    <div class="school hide">
+      <label for="school">School:</label>
+      <input type="text" id="school">
+    </div>
+
+    <button type="submit">Add Employee</button>
+  </form>
+
+  <div class="employees hide">
+    <h2>Employees</h2>
+    <p>No Employees Added</p>
+    <table id="employeeList">
+      <!-- Employee details will be displayed here -->
+
+    </table>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
+
+</html>
