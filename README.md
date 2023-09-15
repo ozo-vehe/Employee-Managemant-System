@@ -1,6 +1,5 @@
 # Employee Management System
-The Employee Management System is a simple web-based application that allows users to manage a list of employees. This application is built using HTML, JavaScript, and CSS and provides functionality to add employees, view employee details, and list all employees.
-The Employee Management System is a web-based application that simplifies employee management. It allows users to add employee records, view employee details, and list all employees. This README provides instructions on using the system and explains how it leverages classes, switch statements, and try-catch-finally statements.
+The Employee Management System is a simple web-based application that simplifies employee management. Built using HTML, JavaScript, and CSS, it allows users to add employee records and view all employee details. It leverages classes, switch statements, and try-catch-finally statements to perform all this actions and more.
 
 ![Employee Management System Screenshot](./employee-management.png)
 
@@ -15,7 +14,6 @@ The Employee Management System is a web-based application that simplifies employ
 ## Features
 1. **Add Employee**: Users can add employees to the system by providing the employee's name and ID.
 2. **View Employee**: Users can view employee details by entering the employee's ID. If the employee is found, their name and ID are displayed.
-3. **List Employees**: Users can list all employees in the system, showing their names and IDs.
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
