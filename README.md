@@ -37,7 +37,7 @@ Before using the Employee Management System, ensure that you have the following 
 ## Usage
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/ozo-vehe/employee-management-system.git
+   git clone https://github.com/ozo-vehe/Employee-Managemant-System.git
    ```
 
 2. Open the Application
